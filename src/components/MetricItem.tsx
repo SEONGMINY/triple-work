@@ -1,12 +1,20 @@
+import useCounter from '../hooks/useCounter'
+
 interface MetricItemProps {
+  max: number
   point: string
   nomal: string
 }
 
-const MetricItem = ({ point, nomal }: MetricItemProps) => {
+const MetricItem = ({ max, point, nomal }: MetricItemProps) => {
+  const count = useCounter(max)
+
   return (
     <div>
-      <strong>{point}</strong>
+      <strong>
+        <span>{count}</span>
+        {point}
+      </strong>
       {nomal}
     </div>
   )
