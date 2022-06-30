@@ -37,10 +37,10 @@ npm start
 > - 숫자 모두 2초동안 증가하고,동시에 끝나야합니다.
 > - 증가 속도가 느려지는 효과를 구현해야 합니다.
 
-위 2개의 구현 조건을 구현하기 힘들었습니다. 해당 기능을 구현하기 위해 여러 사이트와 `countUp` 라이브러리를 참고하였습니다. 이번 계기로 javascript를 한번 돌아보고 정리할 수 있는 시간이 되었던 것 같습니다.
-
 > ### 참고 사이트
 >
 > [SPICYYOGHURT - EASING FUNCTIONS FOR JAVASCRIPT](https://spicyyoghurt.com/tools/easing-functions)
 >
 > [countUp.js 라이브러리](https://github.com/inorganik/countUp.js/blob/master/src/countUp.ts)
+
+위 2개의 구현 조건을 구현하기가 가장 까다로웠습니다. 해당 기능을 구현하기 위해 여러 사이트와 `countUp` 라이브러리를 참고하였습니다. 이번 계기로 javascript를 한번 돌아보고 정리할 수 있는 시간이 되었던 것 같습니다.
